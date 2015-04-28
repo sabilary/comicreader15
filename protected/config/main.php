@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Comic Reader',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -35,16 +35,16 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false,
+			//'urlSuffix'=>'.html',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -57,6 +57,10 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+            // to enable SQL logging and that would dump PDO parameter without SQL look statement in the log file
+            'enableParamLogging' => true,
+            'enableProfiling'    => true,
+            'tablePrefix'        => 'cr_',
 		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -67,14 +71,13 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, trace',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
 				array(
 					'class'=>'CWebLogRoute',
+					'levels'=>'error, warning, info',
 				),
-				*/
 			),
 		),
 	),

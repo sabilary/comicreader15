@@ -1,0 +1,254 @@
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:51:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:34 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:34 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:34 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 04:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
