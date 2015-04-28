@@ -252,3 +252,507 @@ in C:\wamp\www\comicreader15\index.php (13)
 in C:\wamp\www\comicreader15\index.php (13)
 2015/04/28 04:52:39 [trace] [system.CModule] Loading "coreMessages" application component
 in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (53)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:51:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:18 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:51:54 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_archives`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_chapters`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_pages`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_members`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_teams_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_categories`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_threads_comments`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users_roles`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:57:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:38 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:46 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.base.CModule] Loading "gii" module
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:50 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.web.filters.CFilterChain] Running filter UsersController.filteraccessControl()
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.ar.CActiveRecord] Users.count()
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cr_users` `t`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.ar.CActiveRecord] Users.findAll()
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_users` `t` LIMIT 10
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.web.filters.CFilterChain] Running filter UsersController.filteraccessControl()
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (23)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (30)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (52)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+2015/04/28 10:58:56 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (53)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+2015/04/28 10:59:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (32)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (23)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (30)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\site\login.php (52)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (35)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+2015/04/28 10:59:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (98)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.web.filters.CFilterChain] Running filter UsersController.filteraccessControl()
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.ar.CActiveRecord] Users.count()
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_users`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_users`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cr_users` `t`
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.ar.CActiveRecord] Users.findAll()
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_users` `t` LIMIT 10
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/28 10:59:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\users\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\UsersController.php (128)
+in C:\wamp\www\comicreader15\index.php (13)
