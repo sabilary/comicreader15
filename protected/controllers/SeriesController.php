@@ -14,7 +14,7 @@ class SeriesController extends Controller
 	public function filters()
 	{
 		return array(
-			'accessControl', // perform access control for CRUD operations
+			//'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
@@ -32,7 +32,7 @@ class SeriesController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','suggestTags'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -43,6 +43,20 @@ class SeriesController extends Controller
 				'users'=>array('*'),
 			),
 		);
+	}
+    
+	/**
+	 * Suggests tags based on the current user input.
+	 * This is called via AJAX when the user is entering the tags input.
+	 */
+	public function actionSuggestTags()
+	{
+		if(isset($_GET['q']) && ($keyword=trim($_GET['q']))!=='')
+		{
+			$tags=Tags::model()->suggestTags($keyword);
+			if($tags!==array())
+				echo implode("\n",$tags);
+		}
 	}
 
 	/**
@@ -70,6 +84,16 @@ class SeriesController extends Controller
 		if(isset($_POST['Series']))
 		{
 			$model->attributes=$_POST['Series'];
+            $model->slug = $this->convert->slug($model->title);
+			$model->created_at = new CDbExpression("NOW()");
+            $model->created_by = Yii::app()->user->id;
+            
+			if(empty($model->alt_titles)) {$model->alt_titles = null;}
+			if(empty($model->authors)) {$model->authors = null;}
+			if(empty($model->artists)) {$model->artists = null;}
+			if(empty($model->description)) {$model->description = null;}
+			if(empty($model->thread_url)) {$model->thread_url = null;}
+                
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -94,6 +118,16 @@ class SeriesController extends Controller
 		if(isset($_POST['Series']))
 		{
 			$model->attributes=$_POST['Series'];
+            $model->slug = $this->convert->slug($model->title);
+			$model->updated_at = new CDbExpression("NOW()");
+            $model->updated_by = Yii::app()->user->id;
+            
+			if(empty($model->alt_titles)) {$model->alt_titles = null;}
+			if(empty($model->authors)) {$model->authors = null;}
+			if(empty($model->artists)) {$model->artists = null;}
+			if(empty($model->description)) {$model->description = null;}
+			if(empty($model->thread_url)) {$model->thread_url = null;}
+            
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}

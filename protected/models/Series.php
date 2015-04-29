@@ -31,6 +31,47 @@
  */
 class Series extends CActiveRecord
 {
+    private $_oldTags;
+    public $cover_img;
+    
+	const TYPE_ONGOING = 1;
+	const TYPE_ONESHOT = 2;
+	const TYPE_ANTHOLOGY = 3;
+    const TYPE_DOUJIN = 4;
+    
+    public function getSeriesTypes() {
+		return array(
+			self::TYPE_ONGOING=>'OnGoing',
+			self::TYPE_ONESHOT=>'One Shot',
+			self::TYPE_ANTHOLOGY=>'Anthology',
+			self::TYPE_DOUJIN=>'Doujin',
+		);
+	}
+	
+	public function getSeriesTypesText() {
+		$what = $this->seriesTypes;
+		return isset($what[$this->type]) ? $what[$this->type] : "unknown status ({$this->type})";
+	}
+    
+	/**
+	 * This is invoked when a record is populated with data from a find() call.
+	 */
+	protected function afterFind()
+	{
+		parent::afterFind();
+		$this->_oldTags=$this->tags;
+	}
+
+	/**
+	 * This is invoked after the record is saved.
+     * Using Tag::updateFrequency()
+	 */
+	protected function afterSave()
+	{
+		parent::afterSave();
+		Tags::model()->updateFrequency($this->_oldTags, $this->tags);
+	}
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -47,14 +88,29 @@ class Series extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, type, slug', 'required'),
-			array('type, rated, completed, hidden, created_by, updated_by, views', 'numerical', 'integerOnly'=>true),
-			array('title, alt_titles, authors, artists, slug, thread_url', 'length', 'max'=>255),
-			array('description, cover, tags, created_at, updated_at', 'safe'),
+			// TITLE
+			array('title, type', 'required'),
+			array('title', 'length', 'max'=>128),
+            array('title', 'unique'),
+			array('alt_titles, authors, artists, thread_url', 'length', 'max'=>250),
+			array('cover_img', 'length', 'max'=>255),
+            array('cover_img', 'file', 'types'=>'pdf, jpg, png', 'maxSize'=>1024 * 1024 * 5, 'tooLarge'=>'File size max 5MB', 'allowEmpty'=>true),
+			array('tags', 'match', 'pattern'=>'/^[\w\s,]+$/', 'message'=>'Tags can only contain word characters.'),
+			array('tags', 'normalizeTags'),
+			array('description, cover, rated, completed, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, thread_url, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
+	}
+    
+	/**
+	 * Normalizes the user-entered tags.
+     * Using Tag::array2string() and Tag::string2array()
+	 */
+	public function normalizeTags($attribute,$params)
+	{
+		$this->tags=Tags::array2string(array_unique(Tags::string2array($this->tags)));
 	}
 
 	/**
@@ -79,7 +135,7 @@ class Series extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'title' => 'Title',
-			'alt_titles' => 'Alt Titles',
+			'alt_titles' => 'Alternative Titles',
 			'authors' => 'Authors',
 			'artists' => 'Artists',
 			'description' => 'Description',
@@ -96,6 +152,8 @@ class Series extends CActiveRecord
 			'updated_at' => 'Updated At',
 			'updated_by' => 'Updated By',
 			'views' => 'Views',
+            
+            'cover_img'=>'Cover Image',
 		);
 	}
 

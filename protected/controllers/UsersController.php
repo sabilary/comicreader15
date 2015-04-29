@@ -97,9 +97,9 @@ class UsersController extends Controller
 		{
 			$model->attributes=$_POST['Users'];
 			$model->updated_at = new CDbExpression("NOW()");
-			if(empty($model->ban_reason)) {
-				$model->ban_reason = null;
-			}
+            $model->updated_by = Yii::app()->user->id;
+            
+			if(empty($model->ban_reason)) {$model->ban_reason = null;}
             
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

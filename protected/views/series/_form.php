@@ -13,6 +13,9 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+    'htmlOptions' => array(
+        'enctype' => 'multipart/form-data',
+    ),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -44,51 +47,34 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'type'); ?>
+		<?php echo $form->dropDownList($model,'type',$model->seriesTypes); ?>
+		<?php echo $form->error($model,'type'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'description'); ?>
 		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'description'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'cover'); ?>
-		<?php echo $form->textArea($model,'cover',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'cover'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'tags'); ?>
-		<?php echo $form->textArea($model,'tags',array('rows'=>6, 'cols'=>50)); ?>
+		<?php $this->widget('CAutoComplete', array(
+			'model'=>$model,
+			'attribute'=>'tags',
+			'url'=>array('suggestTags'),
+			'multiple'=>true,
+			'htmlOptions'=>array('size'=>50),
+		)); ?>
+		<p class="hint">Please separate different tags with commas.</p>
 		<?php echo $form->error($model,'tags'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'type'); ?>
-		<?php echo $form->textField($model,'type'); ?>
-		<?php echo $form->error($model,'type'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'rated'); ?>
-		<?php echo $form->textField($model,'rated'); ?>
-		<?php echo $form->error($model,'rated'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'completed'); ?>
-		<?php echo $form->textField($model,'completed'); ?>
-		<?php echo $form->error($model,'completed'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'hidden'); ?>
-		<?php echo $form->textField($model,'hidden'); ?>
-		<?php echo $form->error($model,'hidden'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'slug'); ?>
-		<?php echo $form->textField($model,'slug',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'slug'); ?>
+		<?php echo $form->labelEx($model,'cover_img'); ?>
+        <?php echo $form->fileField($model,'cover_img',array()); ?>
+		<?php echo $form->error($model,'cover_img'); ?>
 	</div>
 
 	<div class="row">
@@ -96,36 +82,24 @@
 		<?php echo $form->textField($model,'thread_url',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'thread_url'); ?>
 	</div>
+    
+    <div class="row">
+        <?php echo $form->labelEx($model,'rated'); ?>
+        <?php echo $form->checkBox($model,'rated',array()); ?>
+        <?php echo $form->error($model,'rated'); ?>
+    </div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'created_at'); ?>
-		<?php echo $form->textField($model,'created_at'); ?>
-		<?php echo $form->error($model,'created_at'); ?>
-	</div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'completed'); ?>
+        <?php echo $form->checkBox($model,'completed',array()); ?>
+        <?php echo $form->error($model,'completed'); ?>
+    </div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'created_by'); ?>
-		<?php echo $form->textField($model,'created_by'); ?>
-		<?php echo $form->error($model,'created_by'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'updated_at'); ?>
-		<?php echo $form->textField($model,'updated_at'); ?>
-		<?php echo $form->error($model,'updated_at'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'updated_by'); ?>
-		<?php echo $form->textField($model,'updated_by'); ?>
-		<?php echo $form->error($model,'updated_by'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'views'); ?>
-		<?php echo $form->textField($model,'views'); ?>
-		<?php echo $form->error($model,'views'); ?>
-	</div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'hidden'); ?>
+        <?php echo $form->checkBox($model,'hidden',array()); ?>
+        <?php echo $form->error($model,'hidden'); ?>
+    </div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
