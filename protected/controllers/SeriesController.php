@@ -7,6 +7,7 @@ class SeriesController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+    public $coverFolder='/img_series/'; // $this->coverFolder
 
 	/**
 	 * @return array action filters
@@ -65,10 +66,54 @@ class SeriesController extends Controller
 	 */
 	public function actionView($id)
 	{
+        $model=$this->loadModel($id);
+        $model->saveCounters(array('views'=>1));
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$model,
 		));
 	}
+    
+    /*=============================================================*/
+    // $this->saveSeriesCover($model, $valid);
+    /*=============================================================*/
+    private function saveSeriesCover($model, $valid, $oldcover=null)
+    {
+        if($model->cover_img !== null) {
+            $location = Yii::getPathOfAlias('webroot') . $this->coverFolder;
+            $location = str_replace('/', DIRECTORY_SEPARATOR, $location);
+            $filename = uniqid('img');
+            $model->cover = uniqid('img') . '.jpg';
+            switch(exif_imagetype($model->cover_img->tempName)) {
+                case IMAGETYPE_GIF:
+                    $filename .= '.gif';
+                    $model->cover_img->saveAs($location . $filename);
+                    $model->save();
+                    $this->convert->resizeImage($filename, $model->cover, $location);
+                    if($oldcover) { unlink(getcwd() . $this->coverFolder . $oldcover); }    
+                    break;
+                case IMAGETYPE_JPEG:
+                    $filename .= '.jpg';
+                    $model->cover_img->saveAs($location . $filename);
+                    $model->save();
+                    $this->convert->resizeImage($filename, $model->cover, $location);
+                    if($oldcover) { unlink(getcwd() . $this->coverFolder . $oldcover); }   
+                    break;
+                case IMAGETYPE_PNG:
+                    $filename .= '.png';
+                    $model->cover_img->saveAs($location . $filename);
+                    $model->save();
+                    $this->convert->resizeImage($filename, $model->cover, $location);
+                    if($oldcover) { unlink(getcwd() . $this->coverFolder . $oldcover); }
+                    break;
+                default:
+                    $model->addError('cover_img', Yii::t('app', 'The file {filename} cannot be uploaded. Only files with the image formats gif, jpg or png can be uploaded.', array('{filename}' => $model->cover_img->name)));
+                    $valid = false;
+                    $model->cover=$oldcover;
+                    $mode->save();
+                    break;
+            }
+        }
+    }
 
 	/**
 	 * Creates a new model.
@@ -98,36 +143,8 @@ class SeriesController extends Controller
             
 			if($model->save()) {
 				$valid = true;
-                if ($model->cover_img !== null) {
-                    $location = Yii::getPathOfAlias('webroot') . '/img_series/';
-                    $location = str_replace('/', DIRECTORY_SEPARATOR, $location);
-                    $filename = uniqid('img');
-                    $model->cover = uniqid('img') . '.jpg';
-                    switch( exif_imagetype($model->cover_img->tempName) ) {
-                        case IMAGETYPE_GIF:
-                            $filename .= '.gif';
-                            $model->cover_img->saveAs($location . $filename);
-                            $model->save();
-                            $this->resizeImage($filename, $model->cover, $location);
-                            break;
-                        case IMAGETYPE_JPEG:
-                            $filename .= '.jpg';
-                            $model->cover_img->saveAs($location . $filename);
-                            $model->save();
-                            $this->resizeImage($filename, $model->cover, $location);
-                            break;
-                        case IMAGETYPE_PNG:
-                            $filename .= '.png';
-                            $model->cover_img->saveAs($location . $filename);
-                            $model->save();
-                            $this->resizeImage($filename, $model->cover, $location);
-                            break;
-                        default:
-                            $model->addError('images', Yii::t('app', 'The file {filename} cannot be uploaded. Only files with the image formats gif, jpg or png can be uploaded.', array('{filename}' => $model->cover_img->name)));
-                            $valid = false;
-                            break;
-                    }
-                }
+                $this->saveSeriesCover($model, $valid);
+                
 				if($valid)
 					$this->redirect(array('view','id'=>$model->id));
             }
@@ -146,6 +163,7 @@ class SeriesController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
+        $oldcover = $model->cover;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -168,40 +186,11 @@ class SeriesController extends Controller
 			if($model->save()) {
 				$valid = true;
 				if($model->remove_img) {
-                    unlink(getcwd().'/img_series/'.$model->cover);
+                    unlink(getcwd() . $this->coverFolder . $model->cover);
 					$model->cover = null;
 					$model->save();
 				} else {
-                    if ($model->cover_img !== null) {
-                        $location = Yii::getPathOfAlias('webroot') . '/img_series/';
-                        $location = str_replace('/', DIRECTORY_SEPARATOR, $location);
-                        $filename = uniqid('img');
-                        $model->cover = uniqid('img') . '.jpg';
-                        switch( exif_imagetype($model->cover_img->tempName) ) {
-                            case IMAGETYPE_GIF:
-                                $filename .= '.gif';
-                                $model->cover_img->saveAs($location . $filename);
-                                $model->save();
-                                $this->resizeImage($filename, $model->cover, $location);
-                                break;
-                            case IMAGETYPE_JPEG:
-                                $filename .= '.jpg';
-                                $model->cover_img->saveAs($location . $filename);
-                                $model->save();
-                                $this->resizeImage($filename, $model->cover, $location);
-                                break;
-                            case IMAGETYPE_PNG:
-                                $filename .= '.png';
-                                $model->cover_img->saveAs($location . $filename);
-                                $model->save();
-                                $this->resizeImage($filename, $model->cover, $location);
-                                break;
-                            default:
-                                $model->addError('images', Yii::t('app', 'The file {filename} cannot be uploaded. Only files with the image formats gif, jpg or png can be uploaded.', array('{filename}' => $model->cover_img->name)));
-                                $valid = false;
-                                break;
-                        }
-                    }
+                    $this->saveSeriesCover($model, $valid, $oldcover);
                 }
                 if($valid)
                     $this->redirect(array('view','id'=>$model->id));
@@ -220,7 +209,9 @@ class SeriesController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
+        $model=$this->loadModel($id);
+        if($model->cover) { unlink(getcwd() . $this->coverFolder . $model->cover); }        
+		$model->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
@@ -278,48 +269,6 @@ class SeriesController extends Controller
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
-		}
-	}
-	
-	private function resizeImage($filename, $targetname, $location) {
-		$extension = substr($filename, -3);
-		switch($extension) {
-			case 'gif':
-				$image = @imagecreatefromgif($location . $filename);
-				break;
-			case 'jpg':
-				$image = @imagecreatefromjpeg($location . $filename);
-				break;
-			case 'png':
-				$image = @imagecreatefrompng($location . $filename);
-				break;
-		}
-		if($image) {
-			$width = imagesx($image);
-			$height = imagesy($image);
-			// medium
-			if($width > 150 || $height > 150) {
-				$wr = $width/150;
-				$hr = $height/150;
-				if($wr > $hr) {
-					$ratio = $wr;
-				} else {
-					$ratio = $hr;
-				}
-				$dest_w = (int) ($width/$ratio);
-				$dest_h = (int) ($height/$ratio);
-			} else {
-				$dest_w = $width;
-				$dest_h = $height;
-			}
-			$destImage = imagecreatetruecolor ($dest_w, $dest_h);
-			imagecopyresampled($destImage, $image, 0, 0, 0, 0, $dest_w, $dest_h, $width, $height);
-			imagejpeg($destImage, $location . $targetname, 85);
-			if($filename != $targetname) {
-				unlink($location . $filename);
-			}
-		} else {
-			unlink($location . $filename);
 		}
 	}
 }
