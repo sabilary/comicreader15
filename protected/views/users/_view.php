@@ -29,14 +29,7 @@
 	<?php echo CHtml::encode($data->activated); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('activation_key')); ?>:</b>
-	<?php echo CHtml::encode($data->activation_key); ?>
-	<br />
-
 	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('avatar')); ?>:</b>
-	<?php echo CHtml::encode($data->avatar); ?>
-	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('banned')); ?>:</b>
 	<?php echo CHtml::encode($data->banned); ?>

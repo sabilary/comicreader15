@@ -42,16 +42,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'activation_key'); ?>
-		<?php echo $form->textArea($model,'activation_key',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'avatar'); ?>
-		<?php echo $form->textField($model,'avatar',array('size'=>60,'maxlength'=>255)); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'banned'); ?>
 		<?php echo $form->textField($model,'banned'); ?>
 	</div>

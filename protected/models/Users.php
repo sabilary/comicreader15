@@ -9,7 +9,6 @@
  * @property string $pass
  * @property string $email
  * @property integer $role_id
- * @property string $avatar
  * @property integer $activated
  * @property integer $banned
  * @property string $ban_reason
@@ -46,7 +45,6 @@ class Users extends CActiveRecord
 	// COSTUM VARIABLES
 	public $passwordSave;
 	public $repeatPassword;
-	public $avatarpic;
     
 	/**
 	 * @return string the associated database table name
@@ -82,24 +80,13 @@ class Users extends CActiveRecord
 			array('email', 'email'),
 			array('email', 'unique'),
 			array('email', 'length', 'min'=>3, 'max'=>50),
-			
-			// AVATAR
-			array('avatar', 'safe'),
-			array('avatarpic', 'length', 'max'=>200),
-			array('avatarpic', 'file', 'types'=>'jpg, png', 
-				'maxSize'=>1024 * 1024 * 1, 
-				//'tooLarge'=>'Ukuran file maksimal 1MB', 
-				'allowEmpty'=>true, 
-				'on'=>'updatefoto',
-			),
-			array('avatarpic', 'safe', 'on'=>'insert'),
             
 			array('role_id', 'required'),
             array('ban_reason', 'checkBanned'),
 			array('activated, banned, last_ip, last_login, created_at, updated_at, updated_by', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, username, pass, email, role_id, activated, avatar, banned, ban_reason, last_ip, last_login, created_at, updated_at, updated_by', 'safe', 'on'=>'search'),
+			array('id, username, pass, email, role_id, activated, banned, ban_reason, last_ip, last_login, created_at, updated_at, updated_by', 'safe', 'on'=>'search'),
 		);
 	}
     
@@ -164,7 +151,6 @@ class Users extends CActiveRecord
             
 			'passwordSave' => 'Password',
 			'repeatPassword' => 'Repeat Password',
-			'avatarpic' => 'Avatar',
 		);
 	}
 
@@ -191,7 +177,6 @@ class Users extends CActiveRecord
 		$criteria->compare('pass',$this->pass,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('role_id',$this->role_id);
-		$criteria->compare('avatar',$this->avatar,true);
 		$criteria->compare('activated',$this->activated);
 		$criteria->compare('banned',$this->banned);
 		$criteria->compare('ban_reason',$this->ban_reason,true);
