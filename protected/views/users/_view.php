@@ -34,6 +34,10 @@
 	<br />
 
 	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('avatar')); ?>:</b>
+	<?php echo CHtml::encode($data->avatar); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('banned')); ?>:</b>
 	<?php echo CHtml::encode($data->banned); ?>
 	<br />

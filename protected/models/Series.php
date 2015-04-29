@@ -17,6 +17,7 @@
  * @property integer $completed
  * @property integer $hidden
  * @property string $slug
+ * @property string $thread_url
  * @property string $created_at
  * @property integer $created_by
  * @property string $updated_at
@@ -48,11 +49,11 @@ class Series extends CActiveRecord
 		return array(
 			array('title, type, slug', 'required'),
 			array('type, rated, completed, hidden, created_by, updated_by, views', 'numerical', 'integerOnly'=>true),
-			array('title, alt_titles, authors, artists, slug', 'length', 'max'=>255),
+			array('title, alt_titles, authors, artists, slug, thread_url', 'length', 'max'=>255),
 			array('description, cover, tags, created_at, updated_at', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
+			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, thread_url, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -89,6 +90,7 @@ class Series extends CActiveRecord
 			'completed' => 'Completed',
 			'hidden' => 'Hidden',
 			'slug' => 'Slug',
+			'thread_url' => 'Thread Url',
 			'created_at' => 'Created At',
 			'created_by' => 'Created By',
 			'updated_at' => 'Updated At',
@@ -128,6 +130,7 @@ class Series extends CActiveRecord
 		$criteria->compare('completed',$this->completed);
 		$criteria->compare('hidden',$this->hidden);
 		$criteria->compare('slug',$this->slug,true);
+		$criteria->compare('thread_url',$this->thread_url,true);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);
 		$criteria->compare('updated_at',$this->updated_at,true);

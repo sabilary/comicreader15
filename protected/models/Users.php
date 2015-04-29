@@ -9,8 +9,8 @@
  * @property string $pass
  * @property string $email
  * @property integer $role_id
+ * @property string $avatar
  * @property integer $activated
- * @property string $activation_key
  * @property integer $banned
  * @property string $ban_reason
  * @property string $last_ip
@@ -43,6 +43,11 @@
  */
 class Users extends CActiveRecord
 {
+	// COSTUM VARIABLES
+	public $passwordSave;
+	public $repeatPassword;
+	public $avatarpic;
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -59,16 +64,51 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, pass, email, last_ip', 'required'),
-			array('role_id, activated, banned, updated_by', 'numerical', 'integerOnly'=>true),
-			array('username, pass, email, ban_reason', 'length', 'max'=>255),
-			array('last_ip', 'length', 'max'=>40),
-			array('activation_key, last_login, created_at, updated_at', 'safe'),
+			// USERNAME
+			array('username', 'required'),
+			array('username', 'unique'),
+			array('username', 'length', 'min'=>3, 'max'=>20),
+			array('username', 'match' , 'pattern'=>'/^[A-Za-z0-9_]+$/u', 'message'=> 'Username can contain only alphanumeric characters and hyphens(-).'),
+			
+			// PASSWORD
+			array('pass', 'safe'),
+			array('passwordSave, repeatPassword', 'required', 'on'=>'insert'),
+			array('passwordSave, repeatPassword', 'length', 'min'=>3, 'max'=>20),
+			array('passwordSave', 'compare', 'compareAttribute'=>'repeatPassword'),
+			//array('passwordSave', 'checkStrength', 'score'=>20),
+			
+			// EMAIL
+			array('email', 'required'),
+			array('email', 'email'),
+			array('email', 'unique'),
+			array('email', 'length', 'min'=>3, 'max'=>50),
+			
+			// AVATAR
+			array('avatar', 'safe'),
+			array('avatarpic', 'length', 'max'=>200),
+			array('avatarpic', 'file', 'types'=>'jpg, png', 
+				'maxSize'=>1024 * 1024 * 1, 
+				//'tooLarge'=>'Ukuran file maksimal 1MB', 
+				'allowEmpty'=>true, 
+				'on'=>'updatefoto',
+			),
+			array('avatarpic', 'safe', 'on'=>'insert'),
+            
+			array('role_id', 'required'),
+            array('ban_reason', 'checkBanned'),
+			array('activated, banned, last_ip, last_login, created_at, updated_at, updated_by', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, username, pass, email, role_id, activated, activation_key, banned, ban_reason, last_ip, last_login, created_at, updated_at, updated_by', 'safe', 'on'=>'search'),
+			array('id, username, pass, email, role_id, activated, avatar, banned, ban_reason, last_ip, last_login, created_at, updated_at, updated_by', 'safe', 'on'=>'search'),
 		);
 	}
+    
+    public function checkBanned() {        
+         if($this->banned == true) {
+            if(empty($this->ban_reason))
+               $this->addError("ban_reason", 'Ban reason cannot be blank.');
+         }
+    }
 
 	/**
 	 * @return array relational rules.
@@ -110,10 +150,10 @@ class Users extends CActiveRecord
 			'id' => 'ID',
 			'username' => 'Username',
 			'pass' => 'Pass',
-			'email' => 'Email',
+			'email' => 'E-mail',
 			'role_id' => 'Role',
+			'avatar' => 'Avatar',
 			'activated' => 'Activated',
-			'activation_key' => 'Activation Key',
 			'banned' => 'Banned',
 			'ban_reason' => 'Ban Reason',
 			'last_ip' => 'Last Ip',
@@ -121,6 +161,10 @@ class Users extends CActiveRecord
 			'created_at' => 'Created At',
 			'updated_at' => 'Updated At',
 			'updated_by' => 'Updated By',
+            
+			'passwordSave' => 'Password',
+			'repeatPassword' => 'Repeat Password',
+			'avatarpic' => 'Avatar',
 		);
 	}
 
@@ -147,8 +191,8 @@ class Users extends CActiveRecord
 		$criteria->compare('pass',$this->pass,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('role_id',$this->role_id);
+		$criteria->compare('avatar',$this->avatar,true);
 		$criteria->compare('activated',$this->activated);
-		$criteria->compare('activation_key',$this->activation_key,true);
 		$criteria->compare('banned',$this->banned);
 		$criteria->compare('ban_reason',$this->ban_reason,true);
 		$criteria->compare('last_ip',$this->last_ip,true);
@@ -171,5 +215,34 @@ class Users extends CActiveRecord
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+
+    // HASH PASSWORD
+    public function hashPassword($password)
+    {
+        return CPasswordHelper::hashPassword($password);
+    }
+	
+    // VALIDATE PASSWORD
+	public function validatePassword($password)
+    {
+        return CPasswordHelper::verifyPassword($password,$this->pass);
+    }
+    
+    // BEFORE SAVE
+	public function beforeSave() {
+		parent::beforeSave();
+		//add the password hash if it's a new record
+		if ($this->isNewRecord) {
+			$this->pass = $this->hashPassword($this->passwordSave); 
+			$this->created_at = new CDbExpression("NOW()");
+		
+		} else if (
+			!empty($this->passwordSave)&&!empty($this->repeatPassword)&&($this->passwordSave===$this->repeatPassword)
+		) {
+			//if it's not a new password, save the password only if it not empty and the two passwords match
+			$this->pass = $this->hashPassword($this->passwordSave);
+		}
+		return true;
 	}
 }

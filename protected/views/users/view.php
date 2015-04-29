@@ -28,6 +28,7 @@ $this->menu=array(
 		'role_id',
 		'activated',
 		'activation_key',
+		'avatar',
 		'banned',
 		'ban_reason',
 		'last_ip',
