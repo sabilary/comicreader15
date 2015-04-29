@@ -33,6 +33,7 @@ class Series extends CActiveRecord
 {
     private $_oldTags;
     public $cover_img;
+	public $remove_img;
     
 	const TYPE_ONGOING = 1;
 	const TYPE_ONESHOT = 2;
@@ -103,7 +104,7 @@ class Series extends CActiveRecord
             array('cover_img', 'file', 'types'=>'pdf, jpg, png', 'maxSize'=>1024 * 1024 * 5, 'tooLarge'=>'File size max 5MB', 'allowEmpty'=>true),
 			array('tags', 'match', 'pattern'=>'/^[\w\s,]+$/', 'message'=>'Tags can only contain word characters.'),
 			array('tags', 'normalizeTags'),
-			array('description, cover, rated, completed, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe'),
+			array('description, cover, rated, completed, hidden, slug, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, thread_url, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
@@ -159,7 +160,8 @@ class Series extends CActiveRecord
 			'updated_by' => 'Updated By',
 			'views' => 'Views',
             
-            'cover_img'=>'Cover Image',
+            'remove_img'=>'Remove Cover',
+            'cover_img'=>'Upload Cover',
 		);
 	}
 

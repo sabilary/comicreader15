@@ -47815,3 +47815,2334 @@ in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
 in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
 in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
 in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=12 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:31:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (210)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (210)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (210)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (210)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (15)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_search.php (12)
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (40)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+2015/04/29 12:31:56 [trace] [system.db.ar.CActiveRecord] Series.count()
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cr_series` `t`
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` LIMIT 10
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\admin.php (73)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+2015/04/29 12:31:56 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (217)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:32:00 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:32:02 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:02 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img_series/Untitled-23.png".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img_series/Unti...')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img_series/Untitled-23.png
+HTTP_REFERER=http://comicreader15.dev/series/update/11
+---
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (22)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img_series/Untitled-23.png".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img_series/Unti...')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img_series/Untitled-23.png
+HTTP_REFERER=http://comicreader15.dev/series/update/11
+---
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (22)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:22 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (160)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (160)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (163)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (163)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='Untitled-23.png', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:32:27 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:31 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:32:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img_series/Untitled-23.png".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img_series/Unti...')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img_series/Untitled-23.png
+HTTP_REFERER=http://comicreader15.dev/series/update/11
+---
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (22)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:32:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (160)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (160)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (163)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (163)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='Untitled-23.png', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (171)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:33:12 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (229)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (153)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (177)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img_series/Untitled-23.png".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img_series/Unti...')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img_series/Untitled-23.png
+HTTP_REFERER=http://comicreader15.dev/series/update/11
+---
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (22)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:33:15 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='Untitled-23.png', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp1 LIMIT 2. Bound with :ycp1='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:37 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:37 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:34:38 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp1 LIMIT 2. Bound with :ycp1='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6=NULL, :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:34:53 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6=NULL, :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (195)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp1 LIMIT 2. Bound with :ycp1='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (195)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (195)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (195)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='img5540b3fe302f3.jpg', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (195)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:35:43 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:35:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:36:24 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:39:33 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:52:06 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.ar.CActiveRecord] Series.count()
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cr_series` `t`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` LIMIT 10
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+2015/04/29 12:52:09 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (237)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=10 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:52:13 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:52:15 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=10 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (212)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img_series/Untitled-23.png".' in C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.15\framework\web\CWebApplication.php(141): CWebApplication->runController('img_series/Unti...')
+#1 C:\wamp\www\yii-1.1.15\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\comicreader15\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/img_series/Untitled-23.png
+HTTP_REFERER=http://comicreader15.dev/series/update/10
+---
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "errorHandler" application component
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (2)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (22)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column1.php (6)
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:52:16 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\controllers\SiteController.php (45)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=10 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='sadasdsad'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=10. Bound with :yp0=10, :yp1='sadasdsad', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='Untitled-23.png', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='sadasdsad', :yp13=NULL, :yp14='2015-04-29 17:03:27', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp1 LIMIT 2. Bound with :ycp1='sadasdsad'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=10. Bound with :yp0=10, :yp1='sadasdsad', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6=NULL, :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='sadasdsad', :yp13=NULL, :yp14='2015-04-29 17:03:27', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (172)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=10 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (264)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:52:19 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.ar.CActiveRecord] Series.count()
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `cr_series` `t`
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` LIMIT 10
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\index.php (20)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+2015/04/29 12:53:21 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (238)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:53:25 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (19)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\_form.php (69)
+in C:\wamp\www\comicreader15\protected\views\series\update.php (21)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:28 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (49)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (213)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (148)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [warning] [application] Failed to set unsafe attribute "cover_img" of "Series".
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (155)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (158)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp0 LIMIT 2. Bound with :ycp0='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6='img5540b3fe302f3.jpg', :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (168)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_tags`
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.findAll()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (173)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`title`=:ycp1 LIMIT 2. Bound with :ycp1='gerfgterte'
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (173)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.update()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (173)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.updateByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (173)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_series` SET `id`=:yp0, `title`=:yp1, `alt_titles`=:yp2, `authors`=:yp3, `artists`=:yp4, `description`=:yp5, `cover`=:yp6, `tags`=:yp7, `type`=:yp8, `rated`=:yp9, `completed`=:yp10, `hidden`=:yp11, `slug`=:yp12, `thread_url`=:yp13, `created_at`=:yp14, `created_by`=:yp15, `updated_at`=NOW(), `updated_by`=:yp16, `views`=:yp17 WHERE `cr_series`.`id`=11. Bound with :yp0=11, :yp1='gerfgterte', :yp2=NULL, :yp3=NULL, :yp4=NULL, :yp5=NULL, :yp6=NULL, :yp7='', :yp8=1, :yp9=0, :yp10=0, :yp11=0, :yp12='gerfgterte', :yp13=NULL, :yp14='2015-04-29 17:04:09', :yp15=1, :yp16=1, :yp17=0
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (173)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Tags.updateCounters()
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `cr_tags` SET `frequency`=`frequency`+1 WHERE 0=1
+in C:\wamp\www\comicreader15\protected\models\Tags.php (38)
+in C:\wamp\www\comicreader15\protected\models\Tags.php (30)
+in C:\wamp\www\comicreader15\protected\models\Series.php (73)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "log" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "request" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.ar.CActiveRecord] Series.findByPk()
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "db" application component
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `cr_series`
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `cr_series` `t` WHERE `t`.`id`=11 LIMIT 1
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (265)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (69)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "format" application component
+in C:\wamp\www\comicreader15\protected\views\series\view.php (44)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+in C:\wamp\www\comicreader15\index.php (13)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "user" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)
+2015/04/29 12:53:32 [trace] [system.CModule] Loading "session" application component
+in C:\wamp\www\comicreader15\protected\views\layouts\main.php (41)
+in C:\wamp\www\comicreader15\protected\views\layouts\column2.php (22)
+in C:\wamp\www\comicreader15\protected\controllers\SeriesController.php (70)

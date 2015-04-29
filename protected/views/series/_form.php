@@ -72,7 +72,12 @@
 	</div>
 
 	<div class="row">
-        <?php echo CHtml::image((isset($model->cover))?(Yii::app()->request->baseUrl . '/avatar/'. $model->cover):Yii::app()->request->baseUrl .'/images/empty.jpeg', 'cover', array()); ?>
+		<?php echo $form->labelEx($model,'cover'); ?>
+        <?php echo CHtml::image((isset($model->cover))?(Yii::app()->request->baseUrl . '/img_series/'. $model->cover):Yii::app()->request->baseUrl .'/images/empty.jpeg', 'cover', array('align'=>'left','style'=>'margin:0 10px 10px 0;')); ?>			
+        <?php if(!$model->isNewRecord) {
+            echo $form->labelEx($model,'remove_img'); 
+            echo $form->checkBox($model, 'remove_img');
+        } ?>
 		<?php echo $form->labelEx($model,'cover_img'); ?>
         <?php echo $form->fileField($model,'cover_img',array()); ?>
 		<?php echo $form->error($model,'cover_img'); ?>
