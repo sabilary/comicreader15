@@ -72,6 +72,7 @@
 	</div>
 
 	<div class="row">
+        <?php echo CHtml::image((isset($model->cover))?(Yii::app()->request->baseUrl . '/avatar/'. $model->cover):Yii::app()->request->baseUrl .'/images/empty.jpeg', 'cover', array()); ?>
 		<?php echo $form->labelEx($model,'cover_img'); ?>
         <?php echo $form->fileField($model,'cover_img',array()); ?>
 		<?php echo $form->error($model,'cover_img'); ?>

@@ -27,15 +27,6 @@
  * @property Pages[] $pages1
  * @property Series[] $series
  * @property Series[] $series1
- * @property Teams[] $teams
- * @property Teams[] $teams1
- * @property TeamsMembers[] $teamsMembers
- * @property TeamsMembers[] $teamsMembers1
- * @property TeamsMembers[] $teamsMembers2
- * @property Threads[] $threads
- * @property Threads[] $threads1
- * @property ThreadsComments[] $threadsComments
- * @property ThreadsComments[] $threadsComments1
  * @property Users $updatedBy
  * @property Users[] $users
  * @property UsersRoles $role
@@ -113,15 +104,6 @@ class Users extends CActiveRecord
 			'pages1' => array(self::HAS_MANY, 'Pages', 'updated_by'),
 			'series' => array(self::HAS_MANY, 'Series', 'created_by'),
 			'series1' => array(self::HAS_MANY, 'Series', 'updated_by'),
-			'teams' => array(self::HAS_MANY, 'Teams', 'updated_by'),
-			'teams1' => array(self::HAS_MANY, 'Teams', 'created_by'),
-			'teamsMembers' => array(self::HAS_MANY, 'TeamsMembers', 'updated_by'),
-			'teamsMembers1' => array(self::HAS_MANY, 'TeamsMembers', 'created_by'),
-			'teamsMembers2' => array(self::HAS_MANY, 'TeamsMembers', 'user_id'),
-			'threads' => array(self::HAS_MANY, 'Threads', 'created_by'),
-			'threads1' => array(self::HAS_MANY, 'Threads', 'updated_by'),
-			'threadsComments' => array(self::HAS_MANY, 'ThreadsComments', 'updated_by'),
-			'threadsComments1' => array(self::HAS_MANY, 'ThreadsComments', 'created_by'),
 			'updatedBy' => array(self::BELONGS_TO, 'Users', 'updated_by'),
 			'users' => array(self::HAS_MANY, 'Users', 'updated_by'),
 			'role' => array(self::BELONGS_TO, 'UsersRoles', 'role_id'),
