@@ -72,6 +72,12 @@ class Series extends CActiveRecord
 		Tags::model()->updateFrequency($this->_oldTags, $this->tags);
 	}
     
+    public function afterDelete()
+     {
+        parent::afterDelete();
+        Tags::model()->removeTags(Tags::string2array($this->tags));
+     }
+    
 	/**
 	 * @return string the associated database table name
 	 */
