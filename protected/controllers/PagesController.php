@@ -7,6 +7,17 @@ class PagesController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+    
+    public function actions()
+    {
+        return array(
+            'upload'=>array(
+                'class'=>'xupload.actions.XUploadAction',
+                'path' =>Yii::app() -> getBasePath() . "/../img_pages",
+                'publicPath' => Yii::app() -> getBaseUrl() . "/img_pages",
+            ),
+        );
+    }
 
 	/**
 	 * @return array action filters
@@ -28,7 +39,7 @@ class PagesController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'upload'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -62,6 +73,9 @@ class PagesController extends Controller
 	 */
 	public function actionCreate()
 	{
+        Yii::import("xupload.models.XUploadForm");
+        $xupload = new XUploadForm;
+            
 		$model=new Pages;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -81,6 +95,7 @@ class PagesController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+            'xupload'=>$xupload,
 		));
 	}
 
