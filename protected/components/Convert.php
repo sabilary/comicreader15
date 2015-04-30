@@ -1,6 +1,9 @@
 <?php
 class Convert
 {
+    public $resize_width = 200;
+    public $resize_height = 200;
+    
     /*=============================================================*/
     // $this->convert->resizeImage($filename, $targetname, $location);
     /*=============================================================*/
@@ -22,9 +25,9 @@ class Convert
 			$width = imagesx($image);
 			$height = imagesy($image);
 			// medium
-			if($width > 150 || $height > 150) {
-				$wr = $width/150;
-				$hr = $height/150;
+			if($width > $this->resize_width || $height > $this->resize_height) {
+				$wr = $width/$this->resize_width;
+				$hr = $height/$this->resize_height;
 				if($wr > $hr) {
 					$ratio = $wr;
 				} else {

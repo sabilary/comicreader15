@@ -3,7 +3,6 @@
 /* @var $model Series */
 
 $this->breadcrumbs=array(
-	'Series'=>array('index'),
 	$model->title,
 );
 
@@ -16,7 +15,9 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Series #<?php echo $model->id; ?></h1>
+<h1><?php echo $model->title; ?></h1>
+
+<?php echo CHtml::image((isset($model->cover))?(Yii::app()->request->baseUrl . '/img_series/'. $model->cover):Yii::app()->request->baseUrl .'/images/empty.jpeg', 'cover', array('align'=>'left','style'=>'margin:0 10px 10px 0;')); ?>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -42,3 +43,5 @@ $this->menu=array(
 		'views',
 	),
 )); ?>
+
+<?php $this->renderPartial('viewchapters', array('model'=>$model, 'chapters'=>$chapters)); ?>

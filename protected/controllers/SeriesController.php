@@ -68,21 +68,28 @@ class SeriesController extends Controller
 	{
         $model=$this->loadModel($id);
         $model->saveCounters(array('views'=>1));
+        
+		$chapters=new Chapters('search');
+		$chapters->unsetAttributes();  // clear any default values
+		if(isset($_GET['Chapters']))
+			$chapters->attributes=$_GET['Chapters'];
+        
 		$this->render('view',array(
 			'model'=>$model,
+			'chapters'=>$chapters,
 		));
 	}
     
     /*=============================================================*/
-    // $this->saveSeriesCover($model, $valid);
+    // $this->saveSeriesCover($model, $valid, $oldcover=null);
     /*=============================================================*/
     private function saveSeriesCover($model, $valid, $oldcover=null)
     {
         if($model->cover_img !== null) {
             $location = Yii::getPathOfAlias('webroot') . $this->coverFolder;
             $location = str_replace('/', DIRECTORY_SEPARATOR, $location);
-            $filename = uniqid('img');
-            $model->cover = uniqid('img') . '.jpg';
+            $filename = uniqid('cover_') . $model->id;
+            $model->cover = uniqid('cover_') . $model->id . '.jpg';
             switch(exif_imagetype($model->cover_img->tempName)) {
                 case IMAGETYPE_GIF:
                     $filename .= '.gif';

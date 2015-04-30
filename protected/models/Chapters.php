@@ -6,13 +6,12 @@
  * The followings are the available columns in table '{{chapters}}':
  * @property integer $id
  * @property integer $series_id
- * @property integer $team_id
  * @property integer $sort
  * @property string $title
  * @property string $description
+ * @property string $cover
  * @property integer $hidden
  * @property string $slug
- * @property string $lastseen
  * @property string $created_at
  * @property integer $created_by
  * @property string $updated_at
@@ -22,13 +21,15 @@
  * The followings are the available model relations:
  * @property Archives[] $archives
  * @property Users $createdBy
- * @property Teams $team
  * @property Series $series
  * @property Users $updatedBy
  * @property Pages[] $pages
  */
 class Chapters extends CActiveRecord
 {
+    public $cover_img;
+	public $remove_img;
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -45,13 +46,15 @@ class Chapters extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('series_id, sort, title, slug', 'required'),
-			array('series_id, team_id, sort, hidden, created_by, updated_by, views', 'numerical', 'integerOnly'=>true),
-			array('title, slug', 'length', 'max'=>255),
-			array('description, lastseen, created_at, updated_at', 'safe'),
+			array('title', 'required'),
+			array('title', 'length', 'max'=>128),
+            array('title', 'unique'),
+			array('cover_img', 'length', 'max'=>255),
+            array('cover_img', 'file', 'types'=>'pdf, jpg, png', 'maxSize'=>1024 * 1024 * 5, 'tooLarge'=>'File size max 5MB', 'allowEmpty'=>true),
+			array('series_id, description, cover, hidden, sort, slug, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, series_id, team_id, sort, title, description, hidden, slug, lastseen, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
+			array('id, series_id, sort, title, description, cover, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,7 +68,6 @@ class Chapters extends CActiveRecord
 		return array(
 			'archives' => array(self::HAS_MANY, 'Archives', 'chapter_id'),
 			'createdBy' => array(self::BELONGS_TO, 'Users', 'created_by'),
-			'team' => array(self::BELONGS_TO, 'Teams', 'team_id'),
 			'series' => array(self::BELONGS_TO, 'Series', 'series_id'),
 			'updatedBy' => array(self::BELONGS_TO, 'Users', 'updated_by'),
 			'pages' => array(self::HAS_MANY, 'Pages', 'chapter_id'),
@@ -80,18 +82,20 @@ class Chapters extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'series_id' => 'Series',
-			'team_id' => 'Team',
 			'sort' => 'Sort',
 			'title' => 'Title',
 			'description' => 'Description',
+			'cover' => 'Cover',
 			'hidden' => 'Hidden',
 			'slug' => 'Slug',
-			'lastseen' => 'Lastseen',
-			'created_at' => 'Created At',
-			'created_by' => 'Created By',
+			'created_at' => 'Posted At',
+			'created_by' => 'Posted By',
 			'updated_at' => 'Updated At',
 			'updated_by' => 'Updated By',
 			'views' => 'Views',
+            
+            'remove_img'=>'Remove Cover',
+            'cover_img'=>'Upload Cover',
 		);
 	}
 
@@ -115,13 +119,12 @@ class Chapters extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('series_id',$this->series_id);
-		$criteria->compare('team_id',$this->team_id);
 		$criteria->compare('sort',$this->sort);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('cover',$this->cover,true);
 		$criteria->compare('hidden',$this->hidden);
 		$criteria->compare('slug',$this->slug,true);
-		$criteria->compare('lastseen',$this->lastseen,true);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);
 		$criteria->compare('updated_at',$this->updated_at,true);

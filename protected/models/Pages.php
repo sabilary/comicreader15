@@ -14,7 +14,6 @@
  * @property integer $width
  * @property integer $hidden
  * @property string $slug
- * @property string $lastseen
  * @property string $created_at
  * @property integer $created_by
  * @property string $updated_at
@@ -28,6 +27,8 @@
  */
 class Pages extends CActiveRecord
 {
+    public $file;
+    
 	/**
 	 * @return string the associated database table name
 	 */
@@ -44,13 +45,11 @@ class Pages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('chapter_id, sort, filename, slug', 'required'),
-			array('chapter_id, sort, size, height, width, hidden, created_by, updated_by, views', 'numerical', 'integerOnly'=>true),
-			array('mime', 'length', 'max'=>255),
-			array('lastseen, created_at, updated_at', 'safe'),
+            array('file', 'file'),
+			array('chapter_id, sort, filename, mime, size, height, width, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, chapter_id, sort, filename, mime, size, height, width, hidden, slug, lastseen, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
+			array('id, chapter_id, sort, filename, mime, size, height, width, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,7 +83,6 @@ class Pages extends CActiveRecord
 			'width' => 'Width',
 			'hidden' => 'Hidden',
 			'slug' => 'Slug',
-			'lastseen' => 'Lastseen',
 			'created_at' => 'Created At',
 			'created_by' => 'Created By',
 			'updated_at' => 'Updated At',
@@ -121,7 +119,6 @@ class Pages extends CActiveRecord
 		$criteria->compare('width',$this->width);
 		$criteria->compare('hidden',$this->hidden);
 		$criteria->compare('slug',$this->slug,true);
-		$criteria->compare('lastseen',$this->lastseen,true);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);
 		$criteria->compare('updated_at',$this->updated_at,true);

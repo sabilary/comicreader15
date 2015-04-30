@@ -17,6 +17,10 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
+    
+    'aliases'=>array(
+        'xupload'=>'ext.xupload',
+    ),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
@@ -33,7 +37,7 @@ return array(
             'userClass'=>'Users',
             'userIdColumn'=>'id',
             'userNameColumn'=>'username',
-            'userMailColumn' => 'email',
+            'userMailColumn'=>'email',
          ),
 	),
 
