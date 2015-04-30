@@ -47,11 +47,3 @@
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->
-
-<?php $this->widget('xupload.XUpload', array(
-    'url' => Yii::app()->createUrl("pages/upload"),
-    'model' => $xupload,
-    'attribute' => 'file',
-    'multiple' => true,
-));
-?>

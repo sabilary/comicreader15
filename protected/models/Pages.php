@@ -27,7 +27,7 @@
  */
 class Pages extends CActiveRecord
 {
-    public $file;
+    public $img_page;
     
 	/**
 	 * @return string the associated database table name
@@ -45,7 +45,7 @@ class Pages extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-            array('file', 'file'),
+            array('img_page', 'file'),
 			array('chapter_id, sort, filename, mime, size, height, width, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -88,6 +88,8 @@ class Pages extends CActiveRecord
 			'updated_at' => 'Updated At',
 			'updated_by' => 'Updated By',
 			'views' => 'Views',
+            
+            'img_page' => 'Image',
 		);
 	}
 
