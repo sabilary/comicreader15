@@ -4,24 +4,50 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <?php
+    /**
+     * The position of the JavaScript code. Valid values include the following:
+     * 1. CClientScript::POS_HEAD  : the script is inserted in the head section right before the title element.
+     * 2. CClientScript::POS_BEGIN : the script is inserted at the beginning of the body section.
+     * 3. CClientScript::POS_END   : the script is inserted at the end of the body section.
+     * 4. CClientScript::POS_LOAD  : the script is inserted in the window.onload() function.
+     * 5. CClientScript::POS_READY : the script is inserted in the jQuery's ready function.
+     **/
+	 
+    // Variabel
+    $baseUrl = Yii::app()->request->baseUrl.'/';
+    $cs      = Yii::app()->getClientScript();
+    $js      = $baseUrl.'js/';
+    $css     = $baseUrl.'css/';
+    
+    Yii::app()->clientScript->registerCoreScript('jquery');
+    
+    // Plugins
+    $plugins = $baseUrl.'assets/plugins/';
+    
+    // Bootstrap
+    $bootstrap = $plugins.'bootstrap/';
+    Yii::app()->clientScript->registerCssFile($bootstrap.'css/bootstrap.css');
+    Yii::app()->clientScript->registerScriptFile($bootstrap.'js/bootstrap.js');
+    
+    // Fontawesome
+    $fontawesome = $plugins.'fontawesome/';
+    Yii::app()->clientScript->registerCssFile($fontawesome.'css/font-awesome.css');
+    
+    // Blueprint CSS framework
+    Yii::app()->clientScript->registerCssFile($css.'screen.css', 'screen, projection');
+    //Yii::app()->clientScript->registerCssFile($css.'print.css', 'print');
+    Yii::app()->clientScript->registerCssFile($css.'main.css');
+    Yii::app()->clientScript->registerCssFile($css.'form.css');
+    ?>
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
-    
-	<?php
-	  $baseUrl = Yii::app()->request->baseUrl; 
-	  $cs = Yii::app()->getClientScript();
-	  Yii::app()->clientScript->registerCoreScript('jquery');
-	?>
 </head>
 
 <body>

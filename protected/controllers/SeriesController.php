@@ -137,6 +137,7 @@ class SeriesController extends Controller
 		{
 			$model->attributes=$_POST['Series'];
             $model->slug = $this->convert->slug($model->title);
+            $model->uniqueid = uniqid();
 			$model->created_at = new CDbExpression("NOW()");
             $model->created_by = Yii::app()->user->id;
             

@@ -124,6 +124,7 @@ class ChaptersController extends Controller
 			$model->attributes=$_POST['Chapters'];
             $model->series_id = $_GET['sid'];
             $model->slug = $this->convert->slug($model->title);
+            $model->uniqueid = uniqid();
 			$model->created_at = new CDbExpression("NOW()");
             $model->created_by = Yii::app()->user->id;
             

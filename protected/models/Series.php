@@ -17,6 +17,7 @@
  * @property integer $completed
  * @property integer $hidden
  * @property string $slug
+ * @property string $uniqueid
  * @property string $thread_url
  * @property string $created_at
  * @property integer $created_by
@@ -104,10 +105,10 @@ class Series extends CActiveRecord
             array('cover_img', 'file', 'types'=>'pdf, jpg, png', 'maxSize'=>1024 * 1024 * 5, 'tooLarge'=>'File size max 5MB', 'allowEmpty'=>true),
 			array('tags', 'match', 'pattern'=>'/^[\w\s,]+$/', 'message'=>'Tags can only contain word characters.'),
 			array('tags', 'normalizeTags'),
-			array('description, cover, rated, completed, hidden, slug, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
+			array('description, cover, rated, completed, hidden, slug, uniqueid, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, thread_url, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
+			array('id, title, alt_titles, authors, artists, description, cover, tags, type, rated, completed, hidden, slug, uniqueid, thread_url, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
 	}
     
@@ -149,10 +150,11 @@ class Series extends CActiveRecord
 			'cover' => 'Cover',
 			'tags' => 'Tags',
 			'type' => 'Type',
-			'rated' => 'Rated',
+			'rated' => 'Adult Notice', // Enable
 			'completed' => 'Completed',
-			'hidden' => 'Hidden',
+			'hidden' => 'Visibility', // Hidden
 			'slug' => 'Slug',
+            'uniqueid' => 'Uniqueid',
 			'thread_url' => 'Thread Url',
 			'created_at' => 'Posted At',
 			'created_by' => 'Posted By',
@@ -196,6 +198,7 @@ class Series extends CActiveRecord
 		$criteria->compare('completed',$this->completed);
 		$criteria->compare('hidden',$this->hidden);
 		$criteria->compare('slug',$this->slug,true);
+		$criteria->compare('uniqueid',$this->uniqueid,true);
 		$criteria->compare('thread_url',$this->thread_url,true);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);

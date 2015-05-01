@@ -12,6 +12,7 @@
  * @property string $cover
  * @property integer $hidden
  * @property string $slug
+ * @property string $uniqueid
  * @property string $created_at
  * @property integer $created_by
  * @property string $updated_at
@@ -51,10 +52,10 @@ class Chapters extends CActiveRecord
             array('title', 'unique'),
 			array('cover_img', 'length', 'max'=>255),
             array('cover_img', 'file', 'types'=>'pdf, jpg, png', 'maxSize'=>1024 * 1024 * 5, 'tooLarge'=>'File size max 5MB', 'allowEmpty'=>true),
-			array('series_id, description, cover, hidden, sort, slug, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
+			array('series_id, description, cover, hidden, sort, slug, uniqueid, created_at, created_by, updated_at, updated_by, views, remove_img', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, series_id, sort, title, description, cover, hidden, slug, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
+			array('id, series_id, sort, title, description, cover, hidden, slug, uniqueid, created_at, created_by, updated_at, updated_by, views', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -86,8 +87,9 @@ class Chapters extends CActiveRecord
 			'title' => 'Title',
 			'description' => 'Description',
 			'cover' => 'Cover',
-			'hidden' => 'Hidden',
+			'hidden' => 'Visibility',
 			'slug' => 'Slug',
+            'uniqueid' => 'Uniqueid',
 			'created_at' => 'Posted At',
 			'created_by' => 'Posted By',
 			'updated_at' => 'Updated At',
@@ -125,6 +127,7 @@ class Chapters extends CActiveRecord
 		$criteria->compare('cover',$this->cover,true);
 		$criteria->compare('hidden',$this->hidden);
 		$criteria->compare('slug',$this->slug,true);
+		$criteria->compare('uniqueid',$this->uniqueid,true);
 		$criteria->compare('created_at',$this->created_at,true);
 		$criteria->compare('created_by',$this->created_by);
 		$criteria->compare('updated_at',$this->updated_at,true);

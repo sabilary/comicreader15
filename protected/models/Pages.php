@@ -81,7 +81,7 @@ class Pages extends CActiveRecord
 			'size' => 'Size',
 			'height' => 'Height',
 			'width' => 'Width',
-			'hidden' => 'Hidden',
+			'hidden' => 'Visibility',
 			'slug' => 'Slug',
 			'created_at' => 'Created At',
 			'created_by' => 'Created By',
