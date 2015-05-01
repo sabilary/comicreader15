@@ -116,7 +116,7 @@ class SeriesController extends Controller
                     $model->addError('cover_img', Yii::t('app', 'The file {filename} cannot be uploaded. Only files with the image formats gif, jpg or png can be uploaded.', array('{filename}' => $model->cover_img->name)));
                     $valid = false;
                     $model->cover=$oldcover;
-                    $mode->save();
+                    $model->save();
                     break;
             }
         }

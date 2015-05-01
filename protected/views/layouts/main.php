@@ -1,9 +1,9 @@
 <?php /* @var $this Controller */ ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo Yii::app()->language;?>">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo Yii::app()->charset;?>" />
+	<meta name="language" content="<?php echo Yii::app()->language;?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <?php
